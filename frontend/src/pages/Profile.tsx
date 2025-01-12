@@ -167,7 +167,7 @@ const Profile = () => {
       <style>
         {`
         body {
-          background-color: ${mode ? "#121212" : "#f8f9fa"};
+          background-color: ${mode ? "#121212" : "white"};
           color: ${mode ? "#e0e0e0" : "#495057"};
         }
 
