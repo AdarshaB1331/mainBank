@@ -1,0 +1,245 @@
+body {
+  font-family: "Roboto Slab";
+}
+
+nav {
+  display: flex; /* Use flexbox to align links horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-size: 18px; /* Spacing between links */
+  color: black; /* Default link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make text bold */
+  padding: 10px 15px; /* Padding for better click area */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa; /* Light background on hover */
+  color: #0056b3; /* Darker link color on hover */
+}
+
+/* Adjust the header styles */
+header {
+  background-color: #fff; /* White background for the header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+@media screen and (max-width: 1124px) {
+  .signUpBox {
+    margin-right: 500px !important;
+  }
+  .headingOfSignUp {
+    font-size: 40px !important;
+    width: 1000px !important;
+  }
+  .textOfSignUp {
+    font-size: 40px !important;
+    width: 1000px !important;
+  }
+  .nameInput {
+    width: 600px !important;
+    height: 90px !important;
+    font-size: 30px !important;
+  }
+  .emailInput {
+    width: 600px !important;
+    height: 90px !important;
+
+    font-size: 30px !important;
+  }
+  .passwordInput {
+    width: 600px !important;
+    height: 90px !important;
+
+    font-size: 30px !important;
+  }
+  .signUpButton {
+    width: 300px !important;
+    margin-left: 150px;
+    font-size: 35px;
+    margin-top: 40px;
+  }
+  .navbars {
+    width: 1575px !important;
+  }
+  .textOfSignUp {
+    font-size: 50px !important;
+  }
+  .textInsideInput {
+    font-size: 25px !important;
+  }
+  .textInsideNavbar {
+    font-size: 35px !important;
+  }
+  .logoOfSignUp {
+    width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .textOfSignUp {
+    font-size: 70px !important;
+    width: 1000px !important;
+  }
+  .nameInput {
+    width: 900px !important;
+    height: 150px !important;
+    font-size: 40px !important;
+  }
+  .emailInput {
+    width: 900px !important;
+    height: 150px !important;
+    font-size: 40px !important;
+  }
+  .passwordInput {
+    width: 900px !important;
+    height: 150px !important;
+    font-size: 40px !important;
+  }
+  .signUpButton {
+    width: 400px !important;
+    margin-left: 150px;
+    font-size: 45px;
+    margin-top: 40px;
+  }
+  .textInsideInput {
+    font-size: 35px !important;
+  }
+  .textInsideNavbar {
+    font-size: 50px !important;
+  }
+}
+@media screen and (max-width: 546px) {
+  .signUpBox {
+    margin-right: 100px !important;
+    margin-top: 30px;
+  }
+  .textOfSignUp {
+    font-size: 120px !important;
+    width: 1000px !important;
+  }
+  .nameInput {
+    margin-top: 40px;
+    width: 900px !important;
+    height: 180px !important;
+    font-size: 60px !important;
+  }
+  .emailInput {
+    width: 900px !important;
+    height: 180px !important;
+    font-size: 60px !important;
+  }
+  .passwordInput {
+    width: 900px !important;
+    height: 180px !important;
+    font-size: 60px !important;
+  }
+  .textInsideInput {
+    font-size: 45px !important;
+  }
+  .signUpButton {
+    width: 500px !important;
+    margin-left: 150px;
+    font-size: 60px;
+    margin-top: 40px;
+  }
+  .textInsideNavbar {
+    font-size: 65px !important;
+  }
+  .textOfSignUp {
+    font-size: 70px !important;
+    width: 1000px !important;
+    margin-bottom: 40px;
+  }
+  .mainBox {
+    margin-top: 140px !important;
+  }
+  .headingOfSignUp {
+    font-size: 80px !important;
+    width: 1000px !important;
+  }
+}
+@media screen and (max-width: 442px) {
+  .signUpBox {
+    margin-right: 100px !important;
+    margin-top: 30px;
+  }
+  .textOfSignUp {
+    font-size: 120px !important;
+    width: 1000px !important;
+  }
+  .nameInput {
+    margin-top: 40px;
+    width: 900px !important;
+    height: 180px !important;
+    font-size: 60px !important;
+  }
+  .emailInput {
+    width: 900px !important;
+    height: 180px !important;
+    font-size: 60px !important;
+  }
+  .passwordInput {
+    width: 900px !important;
+    height: 180px !important;
+    font-size: 60px !important;
+  }
+  .textInsideInput {
+    font-size: 45px !important;
+  }
+  .signUpButton {
+    width: 500px !important;
+    margin-left: 150px;
+    font-size: 60px;
+    margin-top: 40px;
+  }
+  .textInsideNavbar {
+    font-size: 65px !important;
+  }
+  .textOfSignUp {
+    font-size: 100px !important;
+    width: 1000px !important;
+    margin-bottom: 40px;
+  }
+  .mainBox {
+    margin-top: 140px !important;
+    margin-right: "70px" !important;
+  }
+  .headingOfSignUp {
+    font-size: 180px !important;
+    width: 1000px !important;
+  }
+.nav-link.active.active-background-red {
+  background-color: #ffe6e6 !important; /* Override Bootstrap's blue */
+}
+
+.custom-bg {
+  background: linear-gradient(to right, #e2e8f0, #e5e7eb);
+}
+
+.custom-btn:hover {
+  background-color: #f3e8ff !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+@media (prefers-color-scheme: dark) {
+  .custom-bg {
+      background: linear-gradient(to right, #1f2937, #111827);
+      color: white !important;
+  }
+
+  .custom-btn {
+      background-color: #374151 !important;
+      color: white !important;
+  }
+
+  .custom-btn:hover {
+      background-color: #4b5563 !important;
+  }
+}
+
