@@ -54,10 +54,14 @@ const Navbar = () => {
       >
         <img style={{ width: "50px" }} src={logo} alt="Logo" />
         <span
-          style={{ marginLeft: "10px" }}
+          style={
+            !mode
+              ? { marginLeft: "10px", color: "red" }
+              : { marginLeft: "10px" }
+          }
           className={
             !mode
-              ? "fs-4 textInsideNavbar "
+              ? "fs-4 textInsideNavbar  "
               : "fs-4 textInsideNavbar text-white"
           }
         >
